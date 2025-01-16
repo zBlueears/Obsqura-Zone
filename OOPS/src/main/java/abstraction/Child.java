@@ -11,7 +11,7 @@ public class Child extends Sample
 		System.out.println("display():Child class");
 	}
 	public static void main(String[] args) {
-		Child c= new Child();
+		Child c= new Child();		//abstract class cannot be instantiated
 		c.show();
 		c.print();
 		c.display();
