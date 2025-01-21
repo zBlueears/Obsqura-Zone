@@ -10,9 +10,13 @@ public class Sample
 		{
 			int result = 5/0;
 		}
-		catch(ArithmeticException e)
+		/*catch(ArithmeticException e)
 		{
 			System.out.println("The statement has Exception "+e);
+		}*/
+		finally
+		{
+			System.out.println("finally block is always excecuted");
 		}
 		System.out.println("Sum :"+s);		
 	}
